@@ -1,5 +1,6 @@
 package no.uib.inf225.java_formatter;
 
+import no.uib.inf225.java_formatter.scanner.DirectoryScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
