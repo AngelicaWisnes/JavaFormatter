@@ -31,7 +31,7 @@ public class DirectoryScanner {
         DIRECTORY_IMAGE.append("  ".repeat(indentation));
         DIRECTORY_IMAGE.append(getEntryColor(entry));
         DIRECTORY_IMAGE.append(entry.getFileName());
-        DIRECTORY_IMAGE.append("\n");
+        DIRECTORY_IMAGE.append(Ansi.RESET + "\n");
     }
 
     public String getEntryColor(Path entry) {
