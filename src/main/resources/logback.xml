@@ -23,7 +23,7 @@
         </encoder>
     </appender>
 
-    <root level="all" additivity="false">
+    <root level="info" additivity="false">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </root>
