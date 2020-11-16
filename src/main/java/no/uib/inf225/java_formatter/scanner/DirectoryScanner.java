@@ -10,9 +10,12 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+import static no.uib.inf225.java_formatter.GlobalQuickConfig.isLegalFileExtension;
+
 public class DirectoryScanner {
     private static final Logger LOGGER = LoggerFactory.getLogger(DirectoryScanner.class);
     private static final StringBuilder DIRECTORY_IMAGE = new StringBuilder();
+    private static final FileScanner fileScanner = new FileScanner();
 
     public void traverseDirectory(Path path, int folderIndex) {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(path)) {
@@ -25,6 +28,7 @@ public class DirectoryScanner {
     private void handleEntry(Path entry, int folderIndex) {
         directoryImageBuilder(entry, folderIndex);
         if (isFolder(entry)) traverseDirectory(entry, folderIndex + 1);
+        if (isLegalFileExtension(getFileExtension(entry))) fileScanner.scan(entry);
     }
 
     private void directoryImageBuilder(Path entry, int indentation) {
