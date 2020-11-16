@@ -4406,8 +4406,8 @@ public class JavaListener extends Java9BaseListener {
 
     @Override
     public void enterIdentifier(IdentifierContext ctx) {
-        //TerminalNode node = ctx.identifier().Identifier();
-        String text = ""; //node.getText();
+        TerminalNode node = ctx.Identifier();
+        String text = node.getText();
 
         LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIdentifier(ctx);
@@ -4415,8 +4415,8 @@ public class JavaListener extends Java9BaseListener {
 
     @Override
     public void exitIdentifier(IdentifierContext ctx) {
-        //TerminalNode node = ctx.identifier().Identifier();
-        String text = ""; //node.getText();
+        TerminalNode node = ctx.Identifier();
+        String text = node.getText();
 
         LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIdentifier(ctx);
