@@ -8,9 +8,8 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 
-import java.io.File;
+import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.*;
 
 public class FileScanner {
 
@@ -18,12 +17,7 @@ public class FileScanner {
         String fileName = entry.getFileName().toString();
         if (fileName.equals("BookClub.java")) {
             try {
-                File myObj = new File(entry.toString());
-                Scanner myReader = new Scanner(myObj);
-
-                while (myReader.hasNextLine()) handle(myReader.nextLine());
-
-                myReader.close();
+                handle(new String(Files.readAllBytes(entry)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
