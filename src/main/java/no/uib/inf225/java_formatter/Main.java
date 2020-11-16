@@ -51,6 +51,7 @@ public class Main {
             methods.addAll(set);
             Collections.sort(methods);
 
+            System.out.println("Number of methods: " + methods.size());
             for (String s : methods) System.out.println(s);
 
             sc.close();
