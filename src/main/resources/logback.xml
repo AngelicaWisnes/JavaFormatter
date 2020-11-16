@@ -2,6 +2,9 @@
 
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
         <encoder>
             <pattern>
                 %blue([%date{ISO8601}]) %highlight([%-12thread] [%-5level]) %cyan([%-35logger{35}]) - %msg%n
@@ -11,6 +14,10 @@
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>log/logFile.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
             <fileNamePattern>logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
@@ -26,6 +33,9 @@
     <appender name="SINGLE" class="ch.qos.logback.core.FileAppender">
         <file>log/singleRunLogFile.log</file>
         <append>false</append>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ALL</level>
+        </filter>
 
         <encoder>
             <pattern>[%-35logger{35}] - %msg%n</pattern>
