@@ -13,7 +13,7 @@ import java.util.List;
 public final class GlobalQuickConfig {
 
 
-    private static final Path DIRECTORY_ROOT = Paths.get(System.getProperty("user.dir") + "\\src");
+    private static final Path DIRECTORY_ROOT = Paths.get(System.getProperty("user.dir"));
 
     private static final List<String> LEGAL_FILE_EXTENSION = Arrays.asList("java", "class");
 
