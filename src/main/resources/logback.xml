@@ -4,7 +4,7 @@
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>
-                %blue([%date{ISO8601}]) %highlight([%thread] [%-5level]) %cyan([%-35logger{35}]) - %msg%n
+                %blue([%date{ISO8601}]) %highlight([%-12thread] [%-5level]) %cyan([%-35logger{35}]) - %msg%n
             </pattern>
         </encoder>
     </appender>
@@ -23,8 +23,18 @@
         </encoder>
     </appender>
 
+    <appender name="SINGLE" class="ch.qos.logback.core.FileAppender">
+        <file>log/singleRunLogFile.log</file>
+        <append>false</append>
+
+        <encoder>
+            <pattern>[%-35logger{35}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
     <root level="all" additivity="false">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
+        <appender-ref ref="SINGLE"/>
     </root>
 </configuration>
