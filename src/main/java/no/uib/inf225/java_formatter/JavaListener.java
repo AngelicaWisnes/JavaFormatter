@@ -16,7 +16,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLiteral(ctx);
     }
 
@@ -25,7 +25,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLiteral(ctx);
     }
 
@@ -34,7 +34,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimitiveType(ctx);
     }
 
@@ -43,7 +43,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimitiveType(ctx);
     }
 
@@ -52,7 +52,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterNumericType(ctx);
     }
 
@@ -61,7 +61,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitNumericType(ctx);
     }
 
@@ -70,7 +70,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIntegralType(ctx);
     }
 
@@ -79,7 +79,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIntegralType(ctx);
     }
 
@@ -88,7 +88,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFloatingPointType(ctx);
     }
 
@@ -97,7 +97,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFloatingPointType(ctx);
     }
 
@@ -106,7 +106,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterReferenceType(ctx);
     }
 
@@ -115,7 +115,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitReferenceType(ctx);
     }
 
@@ -124,7 +124,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassOrInterfaceType(ctx);
     }
 
@@ -133,7 +133,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassOrInterfaceType(ctx);
     }
 
@@ -142,7 +142,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassType(ctx);
     }
 
@@ -151,7 +151,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassType(ctx);
     }
 
@@ -160,7 +160,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassType_lf_classOrInterfaceType(ctx);
     }
 
@@ -169,7 +169,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassType_lf_classOrInterfaceType(ctx);
     }
 
@@ -178,7 +178,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassType_lfno_classOrInterfaceType(ctx);
     }
 
@@ -187,7 +187,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassType_lfno_classOrInterfaceType(ctx);
     }
 
@@ -196,7 +196,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceType(ctx);
     }
 
@@ -205,7 +205,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceType(ctx);
     }
 
@@ -214,7 +214,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceType_lf_classOrInterfaceType(ctx);
     }
 
@@ -223,7 +223,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceType_lf_classOrInterfaceType(ctx);
     }
 
@@ -232,7 +232,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceType_lfno_classOrInterfaceType(ctx);
     }
 
@@ -241,7 +241,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceType_lfno_classOrInterfaceType(ctx);
     }
 
@@ -250,7 +250,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeVariable(ctx);
     }
 
@@ -259,7 +259,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeVariable(ctx);
     }
 
@@ -268,7 +268,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayType(ctx);
     }
 
@@ -277,7 +277,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayType(ctx);
     }
 
@@ -286,7 +286,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterDims(ctx);
     }
 
@@ -295,7 +295,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitDims(ctx);
     }
 
@@ -304,7 +304,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeParameter(ctx);
     }
 
@@ -313,7 +313,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeParameter(ctx);
     }
 
@@ -322,7 +322,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeParameterModifier(ctx);
     }
 
@@ -331,7 +331,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeParameterModifier(ctx);
     }
 
@@ -340,7 +340,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeBound(ctx);
     }
 
@@ -349,7 +349,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeBound(ctx);
     }
 
@@ -358,7 +358,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAdditionalBound(ctx);
     }
 
@@ -367,7 +367,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAdditionalBound(ctx);
     }
 
@@ -376,7 +376,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeArguments(ctx);
     }
 
@@ -385,7 +385,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeArguments(ctx);
     }
 
@@ -394,7 +394,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeArgumentList(ctx);
     }
 
@@ -403,7 +403,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeArgumentList(ctx);
     }
 
@@ -412,7 +412,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeArgument(ctx);
     }
 
@@ -421,7 +421,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeArgument(ctx);
     }
 
@@ -430,7 +430,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterWildcard(ctx);
     }
 
@@ -439,7 +439,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitWildcard(ctx);
     }
 
@@ -448,7 +448,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterWildcardBounds(ctx);
     }
 
@@ -457,7 +457,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitWildcardBounds(ctx);
     }
 
@@ -466,7 +466,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterModuleName(ctx);
     }
 
@@ -475,7 +475,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitModuleName(ctx);
     }
 
@@ -484,7 +484,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPackageName(ctx);
     }
 
@@ -493,7 +493,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPackageName(ctx);
     }
 
@@ -502,7 +502,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeName(ctx);
     }
 
@@ -511,7 +511,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeName(ctx);
     }
 
@@ -520,7 +520,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPackageOrTypeName(ctx);
     }
 
@@ -529,7 +529,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPackageOrTypeName(ctx);
     }
 
@@ -538,7 +538,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExpressionName(ctx);
     }
 
@@ -547,7 +547,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExpressionName(ctx);
     }
 
@@ -556,7 +556,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodName(ctx);
     }
 
@@ -565,7 +565,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodName(ctx);
     }
 
@@ -574,7 +574,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAmbiguousName(ctx);
     }
 
@@ -583,7 +583,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAmbiguousName(ctx);
     }
 
@@ -592,7 +592,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCompilationUnit(ctx);
     }
 
@@ -601,7 +601,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCompilationUnit(ctx);
     }
 
@@ -610,7 +610,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterOrdinaryCompilation(ctx);
     }
 
@@ -619,7 +619,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitOrdinaryCompilation(ctx);
     }
 
@@ -628,7 +628,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterModularCompilation(ctx);
     }
 
@@ -637,7 +637,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitModularCompilation(ctx);
     }
 
@@ -646,7 +646,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPackageDeclaration(ctx);
     }
 
@@ -655,7 +655,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPackageDeclaration(ctx);
     }
 
@@ -664,7 +664,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPackageModifier(ctx);
     }
 
@@ -673,7 +673,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPackageModifier(ctx);
     }
 
@@ -682,7 +682,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterImportDeclaration(ctx);
     }
 
@@ -691,7 +691,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitImportDeclaration(ctx);
     }
 
@@ -700,7 +700,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSingleTypeImportDeclaration(ctx);
     }
 
@@ -709,7 +709,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSingleTypeImportDeclaration(ctx);
     }
 
@@ -718,7 +718,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeImportOnDemandDeclaration(ctx);
     }
 
@@ -727,7 +727,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeImportOnDemandDeclaration(ctx);
     }
 
@@ -736,7 +736,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSingleStaticImportDeclaration(ctx);
     }
 
@@ -745,7 +745,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSingleStaticImportDeclaration(ctx);
     }
 
@@ -754,7 +754,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStaticImportOnDemandDeclaration(ctx);
     }
 
@@ -763,7 +763,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStaticImportOnDemandDeclaration(ctx);
     }
 
@@ -772,7 +772,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeDeclaration(ctx);
     }
 
@@ -781,7 +781,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeDeclaration(ctx);
     }
 
@@ -790,7 +790,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterModuleDeclaration(ctx);
     }
 
@@ -799,7 +799,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitModuleDeclaration(ctx);
     }
 
@@ -808,7 +808,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterModuleDirective(ctx);
     }
 
@@ -817,7 +817,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitModuleDirective(ctx);
     }
 
@@ -826,7 +826,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterRequiresModifier(ctx);
     }
 
@@ -835,7 +835,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitRequiresModifier(ctx);
     }
 
@@ -844,7 +844,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassDeclaration(ctx);
     }
 
@@ -853,7 +853,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassDeclaration(ctx);
     }
 
@@ -862,7 +862,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterNormalClassDeclaration(ctx);
     }
 
@@ -871,7 +871,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitNormalClassDeclaration(ctx);
     }
 
@@ -880,7 +880,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassModifier(ctx);
     }
 
@@ -889,7 +889,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassModifier(ctx);
     }
 
@@ -898,7 +898,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeParameters(ctx);
     }
 
@@ -907,7 +907,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeParameters(ctx);
     }
 
@@ -916,7 +916,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeParameterList(ctx);
     }
 
@@ -925,7 +925,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeParameterList(ctx);
     }
 
@@ -934,7 +934,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSuperclass(ctx);
     }
 
@@ -943,7 +943,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSuperclass(ctx);
     }
 
@@ -952,7 +952,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSuperinterfaces(ctx);
     }
 
@@ -961,7 +961,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSuperinterfaces(ctx);
     }
 
@@ -970,7 +970,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceTypeList(ctx);
     }
 
@@ -979,7 +979,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceTypeList(ctx);
     }
 
@@ -988,7 +988,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassBody(ctx);
     }
 
@@ -997,7 +997,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassBody(ctx);
     }
 
@@ -1006,7 +1006,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassBodyDeclaration(ctx);
     }
 
@@ -1015,7 +1015,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassBodyDeclaration(ctx);
     }
 
@@ -1024,7 +1024,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassMemberDeclaration(ctx);
     }
 
@@ -1033,7 +1033,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassMemberDeclaration(ctx);
     }
 
@@ -1042,7 +1042,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFieldDeclaration(ctx);
     }
 
@@ -1051,7 +1051,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFieldDeclaration(ctx);
     }
 
@@ -1060,7 +1060,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFieldModifier(ctx);
     }
 
@@ -1069,7 +1069,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFieldModifier(ctx);
     }
 
@@ -1078,7 +1078,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableDeclaratorList(ctx);
     }
 
@@ -1087,7 +1087,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableDeclaratorList(ctx);
     }
 
@@ -1096,7 +1096,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableDeclarator(ctx);
     }
 
@@ -1105,7 +1105,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableDeclarator(ctx);
     }
 
@@ -1114,7 +1114,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableDeclaratorId(ctx);
     }
 
@@ -1123,7 +1123,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableDeclaratorId(ctx);
     }
 
@@ -1132,7 +1132,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableInitializer(ctx);
     }
 
@@ -1141,7 +1141,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableInitializer(ctx);
     }
 
@@ -1150,7 +1150,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannType(ctx);
     }
 
@@ -1159,7 +1159,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannType(ctx);
     }
 
@@ -1168,7 +1168,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannPrimitiveType(ctx);
     }
 
@@ -1177,7 +1177,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannPrimitiveType(ctx);
     }
 
@@ -1186,7 +1186,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannReferenceType(ctx);
     }
 
@@ -1195,7 +1195,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannReferenceType(ctx);
     }
 
@@ -1204,7 +1204,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannClassOrInterfaceType(ctx);
     }
 
@@ -1213,7 +1213,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannClassOrInterfaceType(ctx);
     }
 
@@ -1222,7 +1222,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannClassType(ctx);
     }
 
@@ -1231,7 +1231,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannClassType(ctx);
     }
 
@@ -1240,7 +1240,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannClassType_lf_unannClassOrInterfaceType(ctx);
     }
 
@@ -1249,7 +1249,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannClassType_lf_unannClassOrInterfaceType(ctx);
     }
 
@@ -1258,7 +1258,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannClassType_lfno_unannClassOrInterfaceType(ctx);
     }
 
@@ -1267,7 +1267,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannClassType_lfno_unannClassOrInterfaceType(ctx);
     }
 
@@ -1276,7 +1276,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannInterfaceType(ctx);
     }
 
@@ -1285,7 +1285,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannInterfaceType(ctx);
     }
 
@@ -1294,7 +1294,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannInterfaceType_lf_unannClassOrInterfaceType(ctx);
     }
 
@@ -1303,7 +1303,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannInterfaceType_lf_unannClassOrInterfaceType(ctx);
     }
 
@@ -1312,7 +1312,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannInterfaceType_lfno_unannClassOrInterfaceType(ctx);
     }
 
@@ -1321,7 +1321,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannInterfaceType_lfno_unannClassOrInterfaceType(ctx);
     }
 
@@ -1330,7 +1330,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannTypeVariable(ctx);
     }
 
@@ -1339,7 +1339,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannTypeVariable(ctx);
     }
 
@@ -1348,7 +1348,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnannArrayType(ctx);
     }
 
@@ -1357,7 +1357,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnannArrayType(ctx);
     }
 
@@ -1366,7 +1366,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         (new UppercaseMethodListener()).enterMethodDeclaration(ctx);
         //super.enterMethodDeclaration(ctx);
     }
@@ -1376,7 +1376,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodDeclaration(ctx);
     }
 
@@ -1385,7 +1385,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodModifier(ctx);
     }
 
@@ -1394,7 +1394,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodModifier(ctx);
     }
 
@@ -1403,7 +1403,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodHeader(ctx);
     }
 
@@ -1412,7 +1412,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodHeader(ctx);
     }
 
@@ -1421,7 +1421,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterResult(ctx);
     }
 
@@ -1430,7 +1430,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitResult(ctx);
     }
 
@@ -1439,7 +1439,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodDeclarator(ctx);
     }
 
@@ -1448,7 +1448,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodDeclarator(ctx);
     }
 
@@ -1457,7 +1457,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFormalParameterList(ctx);
     }
 
@@ -1466,7 +1466,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFormalParameterList(ctx);
     }
 
@@ -1475,7 +1475,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFormalParameters(ctx);
     }
 
@@ -1484,7 +1484,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFormalParameters(ctx);
     }
 
@@ -1493,7 +1493,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFormalParameter(ctx);
     }
 
@@ -1502,7 +1502,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFormalParameter(ctx);
     }
 
@@ -1511,7 +1511,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableModifier(ctx);
     }
 
@@ -1520,7 +1520,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableModifier(ctx);
     }
 
@@ -1529,7 +1529,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLastFormalParameter(ctx);
     }
 
@@ -1538,7 +1538,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLastFormalParameter(ctx);
     }
 
@@ -1547,7 +1547,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterReceiverParameter(ctx);
     }
 
@@ -1556,7 +1556,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitReceiverParameter(ctx);
     }
 
@@ -1565,7 +1565,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterThrows_(ctx);
     }
 
@@ -1574,7 +1574,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitThrows_(ctx);
     }
 
@@ -1583,7 +1583,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExceptionTypeList(ctx);
     }
 
@@ -1592,7 +1592,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExceptionTypeList(ctx);
     }
 
@@ -1601,7 +1601,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExceptionType(ctx);
     }
 
@@ -1610,7 +1610,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExceptionType(ctx);
     }
 
@@ -1619,7 +1619,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodBody(ctx);
     }
 
@@ -1628,7 +1628,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodBody(ctx);
     }
 
@@ -1637,7 +1637,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInstanceInitializer(ctx);
     }
 
@@ -1646,7 +1646,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInstanceInitializer(ctx);
     }
 
@@ -1655,7 +1655,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStaticInitializer(ctx);
     }
 
@@ -1664,7 +1664,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStaticInitializer(ctx);
     }
 
@@ -1673,7 +1673,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstructorDeclaration(ctx);
     }
 
@@ -1682,7 +1682,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstructorDeclaration(ctx);
     }
 
@@ -1691,7 +1691,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstructorModifier(ctx);
     }
 
@@ -1700,7 +1700,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstructorModifier(ctx);
     }
 
@@ -1709,7 +1709,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstructorDeclarator(ctx);
     }
 
@@ -1718,7 +1718,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstructorDeclarator(ctx);
     }
 
@@ -1727,7 +1727,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSimpleTypeName(ctx);
     }
 
@@ -1736,7 +1736,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSimpleTypeName(ctx);
     }
 
@@ -1745,7 +1745,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstructorBody(ctx);
     }
 
@@ -1754,7 +1754,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstructorBody(ctx);
     }
 
@@ -1763,7 +1763,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExplicitConstructorInvocation(ctx);
     }
 
@@ -1772,7 +1772,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExplicitConstructorInvocation(ctx);
     }
 
@@ -1781,7 +1781,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumDeclaration(ctx);
     }
 
@@ -1790,7 +1790,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumDeclaration(ctx);
     }
 
@@ -1799,7 +1799,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumBody(ctx);
     }
 
@@ -1808,7 +1808,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumBody(ctx);
     }
 
@@ -1817,7 +1817,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumConstantList(ctx);
     }
 
@@ -1826,7 +1826,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumConstantList(ctx);
     }
 
@@ -1835,7 +1835,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumConstant(ctx);
     }
 
@@ -1844,7 +1844,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumConstant(ctx);
     }
 
@@ -1853,7 +1853,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumConstantModifier(ctx);
     }
 
@@ -1862,7 +1862,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumConstantModifier(ctx);
     }
 
@@ -1871,7 +1871,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumBodyDeclarations(ctx);
     }
 
@@ -1880,7 +1880,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumBodyDeclarations(ctx);
     }
 
@@ -1889,7 +1889,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceDeclaration(ctx);
     }
 
@@ -1898,7 +1898,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceDeclaration(ctx);
     }
 
@@ -1907,7 +1907,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterNormalInterfaceDeclaration(ctx);
     }
 
@@ -1916,7 +1916,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitNormalInterfaceDeclaration(ctx);
     }
 
@@ -1925,7 +1925,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceModifier(ctx);
     }
 
@@ -1934,7 +1934,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceModifier(ctx);
     }
 
@@ -1943,7 +1943,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExtendsInterfaces(ctx);
     }
 
@@ -1952,7 +1952,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExtendsInterfaces(ctx);
     }
 
@@ -1961,7 +1961,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceBody(ctx);
     }
 
@@ -1970,7 +1970,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceBody(ctx);
     }
 
@@ -1979,7 +1979,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceMemberDeclaration(ctx);
     }
 
@@ -1988,7 +1988,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceMemberDeclaration(ctx);
     }
 
@@ -1997,7 +1997,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstantDeclaration(ctx);
     }
 
@@ -2006,7 +2006,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstantDeclaration(ctx);
     }
 
@@ -2015,7 +2015,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstantModifier(ctx);
     }
 
@@ -2024,7 +2024,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstantModifier(ctx);
     }
 
@@ -2033,7 +2033,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceMethodDeclaration(ctx);
     }
 
@@ -2042,7 +2042,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceMethodDeclaration(ctx);
     }
 
@@ -2051,7 +2051,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInterfaceMethodModifier(ctx);
     }
 
@@ -2060,7 +2060,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInterfaceMethodModifier(ctx);
     }
 
@@ -2069,7 +2069,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotationTypeDeclaration(ctx);
     }
 
@@ -2078,7 +2078,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotationTypeDeclaration(ctx);
     }
 
@@ -2087,7 +2087,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotationTypeBody(ctx);
     }
 
@@ -2096,7 +2096,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotationTypeBody(ctx);
     }
 
@@ -2105,7 +2105,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotationTypeMemberDeclaration(ctx);
     }
 
@@ -2114,7 +2114,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotationTypeMemberDeclaration(ctx);
     }
 
@@ -2123,7 +2123,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotationTypeElementDeclaration(ctx);
     }
 
@@ -2132,7 +2132,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotationTypeElementDeclaration(ctx);
     }
 
@@ -2141,7 +2141,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotationTypeElementModifier(ctx);
     }
 
@@ -2150,7 +2150,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotationTypeElementModifier(ctx);
     }
 
@@ -2159,7 +2159,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterDefaultValue(ctx);
     }
 
@@ -2168,7 +2168,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitDefaultValue(ctx);
     }
 
@@ -2177,7 +2177,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAnnotation(ctx);
     }
 
@@ -2186,7 +2186,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAnnotation(ctx);
     }
 
@@ -2195,7 +2195,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterNormalAnnotation(ctx);
     }
 
@@ -2204,7 +2204,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitNormalAnnotation(ctx);
     }
 
@@ -2213,7 +2213,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterElementValuePairList(ctx);
     }
 
@@ -2222,7 +2222,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitElementValuePairList(ctx);
     }
 
@@ -2231,7 +2231,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterElementValuePair(ctx);
     }
 
@@ -2240,7 +2240,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitElementValuePair(ctx);
     }
 
@@ -2249,7 +2249,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterElementValue(ctx);
     }
 
@@ -2258,7 +2258,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitElementValue(ctx);
     }
 
@@ -2267,7 +2267,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterElementValueArrayInitializer(ctx);
     }
 
@@ -2276,7 +2276,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitElementValueArrayInitializer(ctx);
     }
 
@@ -2285,7 +2285,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterElementValueList(ctx);
     }
 
@@ -2294,7 +2294,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitElementValueList(ctx);
     }
 
@@ -2303,7 +2303,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMarkerAnnotation(ctx);
     }
 
@@ -2312,7 +2312,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMarkerAnnotation(ctx);
     }
 
@@ -2321,7 +2321,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSingleElementAnnotation(ctx);
     }
 
@@ -2330,7 +2330,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSingleElementAnnotation(ctx);
     }
 
@@ -2339,7 +2339,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayInitializer(ctx);
     }
 
@@ -2348,7 +2348,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayInitializer(ctx);
     }
 
@@ -2357,7 +2357,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableInitializerList(ctx);
     }
 
@@ -2366,7 +2366,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableInitializerList(ctx);
     }
 
@@ -2375,7 +2375,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBlock(ctx);
     }
 
@@ -2384,7 +2384,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBlock(ctx);
     }
 
@@ -2393,7 +2393,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBlockStatements(ctx);
     }
 
@@ -2402,7 +2402,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBlockStatements(ctx);
     }
 
@@ -2411,7 +2411,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBlockStatement(ctx);
     }
 
@@ -2420,7 +2420,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBlockStatement(ctx);
     }
 
@@ -2429,7 +2429,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLocalVariableDeclarationStatement(ctx);
     }
 
@@ -2438,7 +2438,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLocalVariableDeclarationStatement(ctx);
     }
 
@@ -2447,7 +2447,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLocalVariableDeclaration(ctx);
     }
 
@@ -2456,7 +2456,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLocalVariableDeclaration(ctx);
     }
 
@@ -2465,7 +2465,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStatement(ctx);
     }
 
@@ -2474,7 +2474,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStatement(ctx);
     }
 
@@ -2483,7 +2483,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStatementNoShortIf(ctx);
     }
 
@@ -2492,7 +2492,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStatementNoShortIf(ctx);
     }
 
@@ -2501,7 +2501,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStatementWithoutTrailingSubstatement(ctx);
     }
 
@@ -2510,7 +2510,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStatementWithoutTrailingSubstatement(ctx);
     }
 
@@ -2519,7 +2519,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEmptyStatement(ctx);
     }
 
@@ -2528,7 +2528,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEmptyStatement(ctx);
     }
 
@@ -2537,7 +2537,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLabeledStatement(ctx);
     }
 
@@ -2546,7 +2546,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLabeledStatement(ctx);
     }
 
@@ -2555,7 +2555,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLabeledStatementNoShortIf(ctx);
     }
 
@@ -2564,7 +2564,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLabeledStatementNoShortIf(ctx);
     }
 
@@ -2573,7 +2573,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExpressionStatement(ctx);
     }
 
@@ -2582,7 +2582,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExpressionStatement(ctx);
     }
 
@@ -2591,7 +2591,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStatementExpression(ctx);
     }
 
@@ -2600,7 +2600,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStatementExpression(ctx);
     }
 
@@ -2609,7 +2609,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIfThenStatement(ctx);
     }
 
@@ -2618,7 +2618,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIfThenStatement(ctx);
     }
 
@@ -2627,7 +2627,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIfThenElseStatement(ctx);
     }
 
@@ -2636,7 +2636,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIfThenElseStatement(ctx);
     }
 
@@ -2645,7 +2645,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIfThenElseStatementNoShortIf(ctx);
     }
 
@@ -2654,7 +2654,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIfThenElseStatementNoShortIf(ctx);
     }
 
@@ -2663,7 +2663,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAssertStatement(ctx);
     }
 
@@ -2672,7 +2672,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAssertStatement(ctx);
     }
 
@@ -2681,7 +2681,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSwitchStatement(ctx);
     }
 
@@ -2690,7 +2690,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSwitchStatement(ctx);
     }
 
@@ -2699,7 +2699,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSwitchBlock(ctx);
     }
 
@@ -2708,7 +2708,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSwitchBlock(ctx);
     }
 
@@ -2717,7 +2717,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSwitchBlockStatementGroup(ctx);
     }
 
@@ -2726,7 +2726,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSwitchBlockStatementGroup(ctx);
     }
 
@@ -2735,7 +2735,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSwitchLabels(ctx);
     }
 
@@ -2744,7 +2744,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSwitchLabels(ctx);
     }
 
@@ -2753,7 +2753,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSwitchLabel(ctx);
     }
 
@@ -2762,7 +2762,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSwitchLabel(ctx);
     }
 
@@ -2771,7 +2771,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnumConstantName(ctx);
     }
 
@@ -2780,7 +2780,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnumConstantName(ctx);
     }
 
@@ -2789,7 +2789,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterWhileStatement(ctx);
     }
 
@@ -2798,7 +2798,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitWhileStatement(ctx);
     }
 
@@ -2807,7 +2807,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterWhileStatementNoShortIf(ctx);
     }
 
@@ -2816,7 +2816,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitWhileStatementNoShortIf(ctx);
     }
 
@@ -2825,7 +2825,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterDoStatement(ctx);
     }
 
@@ -2834,7 +2834,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitDoStatement(ctx);
     }
 
@@ -2843,7 +2843,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterForStatement(ctx);
     }
 
@@ -2852,7 +2852,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitForStatement(ctx);
     }
 
@@ -2861,7 +2861,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterForStatementNoShortIf(ctx);
     }
 
@@ -2870,7 +2870,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitForStatementNoShortIf(ctx);
     }
 
@@ -2879,7 +2879,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBasicForStatement(ctx);
     }
 
@@ -2888,7 +2888,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBasicForStatement(ctx);
     }
 
@@ -2897,7 +2897,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBasicForStatementNoShortIf(ctx);
     }
 
@@ -2906,7 +2906,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBasicForStatementNoShortIf(ctx);
     }
 
@@ -2915,7 +2915,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterForInit(ctx);
     }
 
@@ -2924,7 +2924,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitForInit(ctx);
     }
 
@@ -2933,7 +2933,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterForUpdate(ctx);
     }
 
@@ -2942,7 +2942,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitForUpdate(ctx);
     }
 
@@ -2951,7 +2951,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterStatementExpressionList(ctx);
     }
 
@@ -2960,7 +2960,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitStatementExpressionList(ctx);
     }
 
@@ -2969,7 +2969,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnhancedForStatement(ctx);
     }
 
@@ -2978,7 +2978,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnhancedForStatement(ctx);
     }
 
@@ -2987,7 +2987,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEnhancedForStatementNoShortIf(ctx);
     }
 
@@ -2996,7 +2996,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEnhancedForStatementNoShortIf(ctx);
     }
 
@@ -3005,7 +3005,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterBreakStatement(ctx);
     }
 
@@ -3014,7 +3014,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitBreakStatement(ctx);
     }
 
@@ -3023,7 +3023,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterContinueStatement(ctx);
     }
 
@@ -3032,7 +3032,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitContinueStatement(ctx);
     }
 
@@ -3041,7 +3041,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterReturnStatement(ctx);
     }
 
@@ -3050,7 +3050,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitReturnStatement(ctx);
     }
 
@@ -3059,7 +3059,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterThrowStatement(ctx);
     }
 
@@ -3068,7 +3068,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitThrowStatement(ctx);
     }
 
@@ -3077,7 +3077,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterSynchronizedStatement(ctx);
     }
 
@@ -3086,7 +3086,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitSynchronizedStatement(ctx);
     }
 
@@ -3095,7 +3095,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTryStatement(ctx);
     }
 
@@ -3104,7 +3104,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTryStatement(ctx);
     }
 
@@ -3113,7 +3113,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCatches(ctx);
     }
 
@@ -3122,7 +3122,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCatches(ctx);
     }
 
@@ -3131,7 +3131,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCatchClause(ctx);
     }
 
@@ -3140,7 +3140,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCatchClause(ctx);
     }
 
@@ -3149,7 +3149,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCatchFormalParameter(ctx);
     }
 
@@ -3158,7 +3158,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCatchFormalParameter(ctx);
     }
 
@@ -3167,7 +3167,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCatchType(ctx);
     }
 
@@ -3176,7 +3176,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCatchType(ctx);
     }
 
@@ -3185,7 +3185,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFinally_(ctx);
     }
 
@@ -3194,7 +3194,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFinally_(ctx);
     }
 
@@ -3203,7 +3203,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTryWithResourcesStatement(ctx);
     }
 
@@ -3212,7 +3212,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTryWithResourcesStatement(ctx);
     }
 
@@ -3221,7 +3221,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterResourceSpecification(ctx);
     }
 
@@ -3230,7 +3230,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitResourceSpecification(ctx);
     }
 
@@ -3239,7 +3239,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterResourceList(ctx);
     }
 
@@ -3248,7 +3248,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitResourceList(ctx);
     }
 
@@ -3257,7 +3257,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterResource(ctx);
     }
 
@@ -3266,7 +3266,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitResource(ctx);
     }
 
@@ -3275,7 +3275,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterVariableAccess(ctx);
     }
 
@@ -3284,7 +3284,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitVariableAccess(ctx);
     }
 
@@ -3293,7 +3293,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimary(ctx);
     }
 
@@ -3302,7 +3302,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimary(ctx);
     }
 
@@ -3311,7 +3311,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray(ctx);
     }
 
@@ -3320,7 +3320,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray(ctx);
     }
 
@@ -3329,7 +3329,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lf_arrayAccess(ctx);
     }
 
@@ -3338,7 +3338,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lf_arrayAccess(ctx);
     }
 
@@ -3347,7 +3347,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lfno_arrayAccess(ctx);
     }
 
@@ -3356,7 +3356,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lfno_arrayAccess(ctx);
     }
 
@@ -3365,7 +3365,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lf_primary(ctx);
     }
 
@@ -3374,7 +3374,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lf_primary(ctx);
     }
 
@@ -3383,7 +3383,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lf_primary_lf_arrayAccess_lf_primary(ctx);
     }
 
@@ -3392,7 +3392,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lf_primary_lf_arrayAccess_lf_primary(ctx);
     }
 
@@ -3401,7 +3401,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary(ctx);
     }
 
@@ -3410,7 +3410,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lf_primary_lfno_arrayAccess_lf_primary(ctx);
     }
 
@@ -3419,7 +3419,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lfno_primary(ctx);
     }
 
@@ -3428,7 +3428,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lfno_primary(ctx);
     }
 
@@ -3437,7 +3437,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primary(ctx);
     }
 
@@ -3446,7 +3446,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lfno_primary_lf_arrayAccess_lfno_primary(ctx);
     }
 
@@ -3455,7 +3455,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPrimaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary(ctx);
     }
 
@@ -3464,7 +3464,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPrimaryNoNewArray_lfno_primary_lfno_arrayAccess_lfno_primary(ctx);
     }
 
@@ -3473,7 +3473,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassLiteral(ctx);
     }
 
@@ -3482,7 +3482,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassLiteral(ctx);
     }
 
@@ -3491,7 +3491,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassInstanceCreationExpression(ctx);
     }
 
@@ -3500,7 +3500,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassInstanceCreationExpression(ctx);
     }
 
@@ -3509,7 +3509,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassInstanceCreationExpression_lf_primary(ctx);
     }
 
@@ -3518,7 +3518,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassInstanceCreationExpression_lf_primary(ctx);
     }
 
@@ -3527,7 +3527,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterClassInstanceCreationExpression_lfno_primary(ctx);
     }
 
@@ -3536,7 +3536,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitClassInstanceCreationExpression_lfno_primary(ctx);
     }
 
@@ -3545,7 +3545,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterTypeArgumentsOrDiamond(ctx);
     }
 
@@ -3554,7 +3554,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitTypeArgumentsOrDiamond(ctx);
     }
 
@@ -3563,7 +3563,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFieldAccess(ctx);
     }
 
@@ -3572,7 +3572,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFieldAccess(ctx);
     }
 
@@ -3581,7 +3581,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFieldAccess_lf_primary(ctx);
     }
 
@@ -3590,7 +3590,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFieldAccess_lf_primary(ctx);
     }
 
@@ -3599,7 +3599,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterFieldAccess_lfno_primary(ctx);
     }
 
@@ -3608,7 +3608,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitFieldAccess_lfno_primary(ctx);
     }
 
@@ -3617,7 +3617,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayAccess(ctx);
     }
 
@@ -3626,7 +3626,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayAccess(ctx);
     }
 
@@ -3635,7 +3635,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayAccess_lf_primary(ctx);
     }
 
@@ -3644,7 +3644,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayAccess_lf_primary(ctx);
     }
 
@@ -3653,7 +3653,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayAccess_lfno_primary(ctx);
     }
 
@@ -3662,7 +3662,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayAccess_lfno_primary(ctx);
     }
 
@@ -3671,7 +3671,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodInvocation(ctx);
     }
 
@@ -3680,7 +3680,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodInvocation(ctx);
     }
 
@@ -3689,7 +3689,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodInvocation_lf_primary(ctx);
     }
 
@@ -3698,7 +3698,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodInvocation_lf_primary(ctx);
     }
 
@@ -3707,7 +3707,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodInvocation_lfno_primary(ctx);
     }
 
@@ -3716,7 +3716,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodInvocation_lfno_primary(ctx);
     }
 
@@ -3725,7 +3725,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArgumentList(ctx);
     }
 
@@ -3734,7 +3734,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArgumentList(ctx);
     }
 
@@ -3743,7 +3743,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodReference(ctx);
     }
 
@@ -3752,7 +3752,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodReference(ctx);
     }
 
@@ -3761,7 +3761,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodReference_lf_primary(ctx);
     }
 
@@ -3770,7 +3770,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodReference_lf_primary(ctx);
     }
 
@@ -3779,7 +3779,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMethodReference_lfno_primary(ctx);
     }
 
@@ -3788,7 +3788,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMethodReference_lfno_primary(ctx);
     }
 
@@ -3797,7 +3797,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterArrayCreationExpression(ctx);
     }
 
@@ -3806,7 +3806,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitArrayCreationExpression(ctx);
     }
 
@@ -3815,7 +3815,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterDimExprs(ctx);
     }
 
@@ -3824,7 +3824,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitDimExprs(ctx);
     }
 
@@ -3833,7 +3833,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterDimExpr(ctx);
     }
 
@@ -3842,7 +3842,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitDimExpr(ctx);
     }
 
@@ -3851,7 +3851,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConstantExpression(ctx);
     }
 
@@ -3860,7 +3860,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConstantExpression(ctx);
     }
 
@@ -3869,7 +3869,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExpression(ctx);
     }
 
@@ -3878,7 +3878,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExpression(ctx);
     }
 
@@ -3887,7 +3887,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLambdaExpression(ctx);
     }
 
@@ -3896,7 +3896,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLambdaExpression(ctx);
     }
 
@@ -3905,7 +3905,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLambdaParameters(ctx);
     }
 
@@ -3914,7 +3914,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLambdaParameters(ctx);
     }
 
@@ -3923,7 +3923,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInferredFormalParameterList(ctx);
     }
 
@@ -3932,7 +3932,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInferredFormalParameterList(ctx);
     }
 
@@ -3941,7 +3941,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLambdaBody(ctx);
     }
 
@@ -3950,7 +3950,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLambdaBody(ctx);
     }
 
@@ -3959,7 +3959,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAssignmentExpression(ctx);
     }
 
@@ -3968,7 +3968,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAssignmentExpression(ctx);
     }
 
@@ -3977,7 +3977,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAssignment(ctx);
     }
 
@@ -3986,7 +3986,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAssignment(ctx);
     }
 
@@ -3995,7 +3995,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterLeftHandSide(ctx);
     }
 
@@ -4004,7 +4004,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitLeftHandSide(ctx);
     }
 
@@ -4013,7 +4013,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAssignmentOperator(ctx);
     }
 
@@ -4022,7 +4022,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAssignmentOperator(ctx);
     }
 
@@ -4031,7 +4031,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConditionalExpression(ctx);
     }
 
@@ -4040,7 +4040,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConditionalExpression(ctx);
     }
 
@@ -4049,7 +4049,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConditionalOrExpression(ctx);
     }
 
@@ -4058,7 +4058,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConditionalOrExpression(ctx);
     }
 
@@ -4067,7 +4067,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterConditionalAndExpression(ctx);
     }
 
@@ -4076,7 +4076,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitConditionalAndExpression(ctx);
     }
 
@@ -4085,7 +4085,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterInclusiveOrExpression(ctx);
     }
 
@@ -4094,7 +4094,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitInclusiveOrExpression(ctx);
     }
 
@@ -4103,7 +4103,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterExclusiveOrExpression(ctx);
     }
 
@@ -4112,7 +4112,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitExclusiveOrExpression(ctx);
     }
 
@@ -4121,7 +4121,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAndExpression(ctx);
     }
 
@@ -4130,7 +4130,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAndExpression(ctx);
     }
 
@@ -4139,7 +4139,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEqualityExpression(ctx);
     }
 
@@ -4148,7 +4148,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEqualityExpression(ctx);
     }
 
@@ -4157,7 +4157,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterRelationalExpression(ctx);
     }
 
@@ -4166,7 +4166,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitRelationalExpression(ctx);
     }
 
@@ -4175,7 +4175,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterShiftExpression(ctx);
     }
 
@@ -4184,7 +4184,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitShiftExpression(ctx);
     }
 
@@ -4193,7 +4193,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterAdditiveExpression(ctx);
     }
 
@@ -4202,7 +4202,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitAdditiveExpression(ctx);
     }
 
@@ -4211,7 +4211,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterMultiplicativeExpression(ctx);
     }
 
@@ -4220,7 +4220,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitMultiplicativeExpression(ctx);
     }
 
@@ -4229,7 +4229,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnaryExpression(ctx);
     }
 
@@ -4238,7 +4238,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnaryExpression(ctx);
     }
 
@@ -4247,7 +4247,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPreIncrementExpression(ctx);
     }
 
@@ -4256,7 +4256,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPreIncrementExpression(ctx);
     }
 
@@ -4265,7 +4265,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPreDecrementExpression(ctx);
     }
 
@@ -4274,7 +4274,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPreDecrementExpression(ctx);
     }
 
@@ -4283,7 +4283,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterUnaryExpressionNotPlusMinus(ctx);
     }
 
@@ -4292,7 +4292,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitUnaryExpressionNotPlusMinus(ctx);
     }
 
@@ -4301,7 +4301,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPostfixExpression(ctx);
     }
 
@@ -4310,7 +4310,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPostfixExpression(ctx);
     }
 
@@ -4319,7 +4319,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPostIncrementExpression(ctx);
     }
 
@@ -4328,7 +4328,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPostIncrementExpression(ctx);
     }
 
@@ -4337,7 +4337,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPostIncrementExpression_lf_postfixExpression(ctx);
     }
 
@@ -4346,7 +4346,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPostIncrementExpression_lf_postfixExpression(ctx);
     }
 
@@ -4355,7 +4355,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPostDecrementExpression(ctx);
     }
 
@@ -4364,7 +4364,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPostDecrementExpression(ctx);
     }
 
@@ -4373,7 +4373,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterPostDecrementExpression_lf_postfixExpression(ctx);
     }
 
@@ -4382,7 +4382,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitPostDecrementExpression_lf_postfixExpression(ctx);
     }
 
@@ -4391,7 +4391,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterCastExpression(ctx);
     }
 
@@ -4400,7 +4400,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitCastExpression(ctx);
     }
 
@@ -4409,7 +4409,7 @@ public class JavaListener extends Java9BaseListener {
         TerminalNode node = ctx.Identifier();
         String text = node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterIdentifier(ctx);
     }
 
@@ -4418,7 +4418,7 @@ public class JavaListener extends Java9BaseListener {
         TerminalNode node = ctx.Identifier();
         String text = node.getText();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitIdentifier(ctx);
     }
 
@@ -4431,7 +4431,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        ////LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.enterEveryRule(ctx);
     }
 
@@ -4440,7 +4440,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        ////LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.exitEveryRule(ctx);
     }
 
@@ -4449,7 +4449,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        ////LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.visitTerminal(node);
     }
 
@@ -4458,7 +4458,7 @@ public class JavaListener extends Java9BaseListener {
         //TerminalNode node = ctx.identifier().Identifier();
         String text = ""; //node.getText();
 
-        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        ////LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.visitErrorNode(node);
     }
 
@@ -4468,7 +4468,7 @@ public class JavaListener extends Java9BaseListener {
 
     @Override
     public int hashCode() {
-        LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
+        //LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
         return super.hashCode();
     }
 
@@ -4476,25 +4476,25 @@ public class JavaListener extends Java9BaseListener {
     public boolean equals(Object obj) {
         String text = obj.toString();
 
-        LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
+        //LOGGER.trace("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         return super.equals(obj);
     }
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
+        //LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
         return super.clone();
     }
 
     @Override
     public String toString() {
-        LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
+        //LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
         return super.toString();
     }
 
     @Override
     protected void finalize() throws Throwable {
-        LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
+        //LOGGER.trace("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
         super.finalize();
     }
 }
