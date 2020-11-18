@@ -22,7 +22,7 @@ public class Main {
         LOGGER.info("Using directory root {}", DIRECTORY_ROOT);
 
         DIRECTORY_SCANNER.traverseDirectory(Path.of(DIRECTORY_ROOT + "\\src"), 0);
-        LOGGER.info("Finished scanning the directory: \n{}", DIRECTORY_SCANNER.getDirectoryImage());
+        //LOGGER.info("Finished scanning the directory: \n{}", DIRECTORY_SCANNER.getDirectoryImage());
 
         checkLogForUsedMethods();
     }
@@ -35,7 +35,8 @@ public class Main {
             Scanner sc = new Scanner(file);
 
             // Define the regex-pattern
-            String regex = "(?<=((Method: enter)|(Method: exit)))([a-zA-Z0-9_]*)";
+            //String regex = "(?<=((Method: enter)|(Method: exit)))([a-zA-Z0-9_]*)"; // Matches JavaListener
+            String regex = "(?<=(Method: ))([a-zA-Z0-9_]*)"; // Matches JavaVisitor
             Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
             // Add all regex-matches to list
