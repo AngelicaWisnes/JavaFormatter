@@ -1,4 +1,4 @@
-package no.uib.inf225.java_formatter.scanner;
+package no.uib.inf225.java_formatter.io;
 
 import no.uib.inf225.java_formatter.util.Ansi;
 import org.apache.commons.io.FilenameUtils;
