@@ -40,6 +40,7 @@ public class JavaFormatter {
     private static final Set<String> noSpaceAfterToken = STYLE.getSet_noSpaceAfterToken();
     private static final Set<Class<?>> noSpaceBeforeRule = STYLE.getSet_noSpaceBeforeRule();
     private static final Set<Class<?>> noSpaceAfterRule = STYLE.getSet_noSpaceAfterRule();
+    private static final Set<Class<?>> noSpaceBeforeAndAfterRule = STYLE.getSet_noSpaceBeforeAndAfterRule();
     private static final Set<Class<?>> forceSpaceBeforeRule = STYLE.getSet_forceSpaceBeforeRule();
 
     // Indentation
@@ -123,7 +124,9 @@ public class JavaFormatter {
                 !noSpaceAroundToken.contains(previousToken) &&
                 !noSpaceBeforeToken.contains(currentToken) &&
                 !noSpaceBeforeRule.contains(currentRule) &&
-                !noSpaceAfterRule.contains(previousRule))
+                !noSpaceAfterRule.contains(previousRule) &&
+                !noSpaceBeforeAndAfterRule.contains(currentRule) &&
+                !noSpaceBeforeAndAfterRule.contains(previousRule))
                || forceSpaceBeforeRule.contains(currentRule);
         // && !interpretAsLiteralRules.contains(node.getParent().getClass());
     }

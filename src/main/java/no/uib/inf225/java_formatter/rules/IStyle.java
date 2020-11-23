@@ -22,6 +22,8 @@ public interface IStyle {
 
     Set<Class<?>> getSet_noSpaceAfterRule();
 
+    Set<Class<?>> getSet_noSpaceBeforeAndAfterRule();
+
     Set<Class<?>> getSet_forceSpaceBeforeRule();
 
     // Indentation

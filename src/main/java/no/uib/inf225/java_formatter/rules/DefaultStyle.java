@@ -24,6 +24,7 @@ public class DefaultStyle implements IStyle {
                                                             DimsContext.class,
                                                             TypeArgumentsContext.class)),
             noSpaceAfterRule = new HashSet<>(Arrays.asList(PackageNameContext.class)),
+            noSpaceBeforeAndAfterRule = new HashSet<>(Arrays.asList()),
             forceSpaceBeforeRule = new HashSet<>(Arrays.asList(BlockContext.class));
 
 
@@ -80,6 +81,11 @@ public class DefaultStyle implements IStyle {
     @Override
     public Set<Class<?>> getSet_noSpaceAfterRule() {
         return noSpaceAfterRule;
+    }
+
+    @Override
+    public Set<Class<?>> getSet_noSpaceBeforeAndAfterRule() {
+        return noSpaceBeforeAndAfterRule;
     }
 
     @Override
