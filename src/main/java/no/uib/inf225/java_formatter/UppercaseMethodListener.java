@@ -1,5 +1,5 @@
 package no.uib.inf225.java_formatter;
-
+/*
 import org.antlr.v4.runtime.tree.TerminalNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,3 +29,6 @@ public class UppercaseMethodListener extends Java9BaseListener {
         return Collections.unmodifiableList(errors);
     }
 }
+
+
+ */
