@@ -21,7 +21,11 @@ public class TreePrinter {
                 .replaceAll("(?m)^\\s+$", "") // Remove whitespaces on otherwise empty lines
                 .replaceAll("\\r?\\n\\r?\\n", EOL); // Use EOL for any kind of line-break
 
-        System.out.print("Pretty-printing tree, with color-coding: Indents = cyan | RuleName = purple | Text = white");
+        System.out.print("Pretty-printing tree, with color-coding: " +
+                         Ansi.CYAN + "Indents = cyan " +
+                         Ansi.RESET + "| " +
+                         Ansi.PURPLE + "RuleName = purple " +
+                         Ansi.RESET + "| Text = white");
         System.out.println(prettyTree);
     }
 
