@@ -206,3 +206,6 @@ $RECYCLE.BIN/
 .idea/
 *.iml
 *.ipr
+
+
+/src/main/java/no/uib/inf225/java_formatter/temp/
