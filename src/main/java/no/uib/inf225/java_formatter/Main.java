@@ -1,6 +1,6 @@
 package no.uib.inf225.java_formatter;
 
-import no.uib.inf225.java_formatter.scanner.DirectoryScanner;
+import no.uib.inf225.java_formatter.io.DirectoryScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +24,7 @@ public class Main {
         DIRECTORY_SCANNER.traverseDirectory(Path.of(DIRECTORY_ROOT + "\\src"), 0);
         //LOGGER.info("Finished scanning the directory: \n{}", DIRECTORY_SCANNER.getDirectoryImage());
 
-        checkLogForUsedMethods();
+        //checkLogForUsedMethods();
     }
 
 
@@ -47,10 +47,10 @@ public class Main {
             }
 
             // Clean up list (Delete duplicates, and sort)
-            Set<String> set = new HashSet<>(methods);
-            methods.clear();
-            methods.addAll(set);
-            Collections.sort(methods);
+            //Set<String> set = new HashSet<>(methods);
+            //methods.clear();
+            //methods.addAll(set);
+            //Collections.sort(methods);
 
             System.out.println("Number of methods: " + methods.size());
             for (String s : methods) System.out.println(s);
