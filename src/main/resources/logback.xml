@@ -34,7 +34,7 @@
         <file>log/singleRunLogFile.log</file>
         <append>false</append>
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>ALL</level>
+            <level>DEBUG</level>
         </filter>
 
         <encoder>
