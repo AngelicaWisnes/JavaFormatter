@@ -30,7 +30,7 @@ public class FileScanner {
     public void scan(Path file) {
         String fileName = file.getFileName().toString();
 
-        if (fileName.equals("HelloWorld.java")) {
+        if (fileName.equals("TestClass1.java")) {
             LOGGER.info("Scanner initiated with file: {}", fileName);
             try {
                 handle(file);
@@ -53,7 +53,7 @@ public class FileScanner {
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         Java9Parser parser = new Java9Parser(tokens);
         ParseTree tree = parser.compilationUnit();
-        TreePrinter.prettyPrint(tree, Arrays.asList(parser.getRuleNames()));
+        //TreePrinter.prettyPrint(tree, Arrays.asList(parser.getRuleNames()));
 
         ParseTreeWalker walker = new ParseTreeWalker();
         JavaListener javaListener = new JavaListener(formatter);
