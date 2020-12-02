@@ -1,5 +1,6 @@
 package no.uib.inf225.java_formatter.rules;
 
+import java.util.Map;
 import java.util.Set;
 
 public interface IStyle {
@@ -22,9 +23,13 @@ public interface IStyle {
 
     Set<Class<?>> getSet_noSpaceAfterRule();
 
-    Set<Class<?>> getSet_noSpaceBeforeAndAfterRule();
+    Set<Class<?>> getSet_noSpaceAroundRule();
 
     Set<Class<?>> getSet_forceSpaceBeforeRule();
+
+    Set<String> getSet_unindentBeforeToken();
+
+    Set<String> getSet_indentAfterToken();
 
     // Indentation
     Set<Class<?>> getSet_indentedRule();
@@ -36,6 +41,7 @@ public interface IStyle {
 
     Set<Class<?>> getSet_newLineAfterRule();
 
-    Set<Class<?>> getSet_newLineBeforeAndAfterRule();
+    Set<Class<?>> getSet_newLineAroundRule();
 
+    Map<String, String> getMap_interpretAsLiteral();
 }

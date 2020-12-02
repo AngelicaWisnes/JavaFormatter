@@ -2,9 +2,7 @@ package no.uib.inf225.java_formatter.rules;
 
 import no.uib.inf225.java_formatter.Java9Parser.*;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class DefaultStyle implements IStyle {
 
@@ -15,33 +13,50 @@ public class DefaultStyle implements IStyle {
 
     // Spacing
     private static final Set<String>
-            noSpaceAroundToken = new HashSet<>(Arrays.asList(".", "(", ")")),
-            noSpaceBeforeToken = new HashSet<>(Arrays.asList(";")),
-            noSpaceAfterToken = new HashSet<>(Arrays.asList());
+            noSpaceAroundToken = new HashSet<>(Arrays.asList(".", "[")),
+            noSpaceBeforeToken = new HashSet<>(Arrays.asList(";", ",", ")", "]", "++", "--")),
+            noSpaceAfterToken = new HashSet<>(Arrays.asList("(", "!", "@"));
 
     private static final Set<Class<?>>
-            noSpaceBeforeRule = new HashSet<>(Arrays.asList(PackageDeclarationContext.class,
-                                                            DimsContext.class,
-                                                            TypeArgumentsContext.class)),
-            noSpaceAfterRule = new HashSet<>(Arrays.asList(PackageNameContext.class)),
-            noSpaceBeforeAndAfterRule = new HashSet<>(Arrays.asList()),
-            forceSpaceBeforeRule = new HashSet<>(Arrays.asList(BlockContext.class));
+            noSpaceBeforeRule = new HashSet<>(Arrays.asList()),
+            noSpaceAfterRule = new HashSet<>(Arrays.asList(
+                    MethodNameContext.class // Removes space between method-name and "("
+                                                          )),
+            noSpaceAroundRule = new HashSet<>(Arrays.asList(
+                    TypeArgumentsContext.class, // Removes space around "<", for type-arguments
+                    TypeArgumentsOrDiamondContext.class // Removes space around empty type-arguments (or "diamonds")
+                                                           )),
+            forceSpaceBeforeRule = new HashSet<>(Arrays.asList());
 
 
     // Indentation
-    private static final Set<Class<?>>
-            indentedRule = new HashSet<>(Arrays.asList(ClassBodyDeclarationContext.class,
-                                                       BlockStatementsContext.class));
-    // New-line
     private static final Set<String>
-            newLineAfterToken = new HashSet<>();//Arrays.asList("{", "}"));
+            unindentBeforeToken = new HashSet<>(Arrays.asList("}")),
+            indentAfterToken = new HashSet<>(Arrays.asList("{"));
 
     private static final Set<Class<?>>
-            newLineBeforeRule = new HashSet<>(Arrays.asList(ClassDeclarationContext.class)),
-            newLineAfterRule = new HashSet<>(Arrays.asList(PackageDeclarationContext.class)),
-            newLineBeforeAndAfterRule = new HashSet<>(Arrays.asList(ImportDeclarationContext.class,
-                                                                    ClassBodyDeclarationContext.class,
-                                                                    BlockStatementsContext.class));
+            indentedRule = new HashSet<>(Arrays.asList(
+                    //ClassBodyDeclarationContext.class, // Manages indentation inside Class-body
+                    //BlockStatementsContext.class // Manages indentation inside Block-body
+                                                      ));
+
+    // New-line
+    private static final Set<String>
+            newLineAfterToken = new HashSet<>(Arrays.asList(";", "{", "}"));
+
+    private static final Set<Class<?>>
+            newLineBeforeRule = new HashSet<>(Arrays.asList(
+                    ClassDeclarationContext.class, // Inserts extra newline before class-declaration
+                    MethodDeclarationContext.class // Inserts extra newline before method-declaration
+                                                           )),
+            newLineAfterRule = new HashSet<>(Arrays.asList(
+                    PackageDeclarationContext.class, // Inserts extra newline after package-declaration
+                    AnnotationContext.class // Inserts newline after annotation
+                                                          )),
+            newLineAroundRule = new HashSet<>(Arrays.asList());
+
+    private static final Map<String, String>
+            interpretAsLiteral = Map.ofEntries(Map.entry("for", ")"));
 
     @Override
     public String getToken_indent() {
@@ -84,13 +99,23 @@ public class DefaultStyle implements IStyle {
     }
 
     @Override
-    public Set<Class<?>> getSet_noSpaceBeforeAndAfterRule() {
-        return noSpaceBeforeAndAfterRule;
+    public Set<Class<?>> getSet_noSpaceAroundRule() {
+        return noSpaceAroundRule;
     }
 
     @Override
     public Set<Class<?>> getSet_forceSpaceBeforeRule() {
         return forceSpaceBeforeRule;
+    }
+
+    @Override
+    public Set<String> getSet_unindentBeforeToken() {
+        return unindentBeforeToken;
+    }
+
+    @Override
+    public Set<String> getSet_indentAfterToken() {
+        return indentAfterToken;
     }
 
     @Override
@@ -114,8 +139,13 @@ public class DefaultStyle implements IStyle {
     }
 
     @Override
-    public Set<Class<?>> getSet_newLineBeforeAndAfterRule() {
-        return newLineBeforeAndAfterRule;
+    public Set<Class<?>> getSet_newLineAroundRule() {
+        return newLineAroundRule;
+    }
+
+    @Override
+    public Map<String, String> getMap_interpretAsLiteral() {
+        return interpretAsLiteral;
     }
 
 }
