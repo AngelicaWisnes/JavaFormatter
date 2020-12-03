@@ -1,49 +1,24 @@
 package no.uib.inf225.java_formatter.rules;
 
-import java.util.Map;
-import java.util.Set;
-
 public interface IStyle {
 
-    // Style-constants
-    String getToken_indent();
+    boolean shouldBeSpace(Class<?> previousRule, Class<?> currentRule, String previousToken, String currentToken);
 
-    String getToken_singleSpace();
+    boolean shouldBeNewLineBeforeRule(Class<?> currentRule);
 
-    String getToken_newLine();
+    boolean shouldBeNewLineAfterRule(Class<?> previousRule);
 
-    // Spacing
-    Set<String> getSet_noSpaceAroundToken();
+    String getNewIndentedLine();
 
-    Set<String> getSet_noSpaceBeforeToken();
+    boolean shouldBeNewLineAfterToken(String previousToken);
 
-    Set<String> getSet_noSpaceAfterToken();
+    String insertSpace(Class<?> previousRule, Class<?> currentRule, String previousToken, String currentToken);
 
-    Set<Class<?>> getSet_noSpaceBeforeRule();
+    void checkForSpecialCase(String previousToken, String currentToken);
 
-    Set<Class<?>> getSet_noSpaceAfterRule();
+    void manageIndentation(String previousToken, String currentToken);
 
-    Set<Class<?>> getSet_noSpaceAroundRule();
+    int TEMP_getIndentLevel();
 
-    Set<Class<?>> getSet_forceSpaceBeforeRule();
-
-    Set<Class<?>> getSet_forceSpaceAfterRule();
-
-    Set<String> getSet_unindentBeforeToken();
-
-    Set<String> getSet_indentAfterToken();
-
-    // Indentation
-    Set<Class<?>> getSet_indentedRule();
-
-    // New lines
-    Set<String> getSet_newLineAfterToken();
-
-    Set<Class<?>> getSet_newLineBeforeRule();
-
-    Set<Class<?>> getSet_newLineAfterRule();
-
-    Set<Class<?>> getSet_newLineAroundRule();
-
-    Map<String, String> getMap_interpretAsLiteral();
+    boolean override_noNewLine();
 }
