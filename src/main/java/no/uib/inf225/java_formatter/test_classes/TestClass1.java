@@ -15,6 +15,10 @@ public class TestClass1 {
         int b = 1 + 1;
         int c = 1 - 1;
         int d = 2 + (3 / 4 + 1);
+        if (a > b) a += 1;
+        if (a < b) a -= 1;
+        if (a >= b) a += 1;
+        if (a <= b) a -= 1;
         int N = io.getInt();
         int M = io.getInt();
         hasOfInterest = new ArrayList[N];
