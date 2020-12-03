@@ -3,9 +3,7 @@ package no.uib.inf225.java_formatter.io;
 import no.uib.inf225.java_formatter.Java9Lexer;
 import no.uib.inf225.java_formatter.Java9Parser;
 import no.uib.inf225.java_formatter.JavaListener;
-import no.uib.inf225.java_formatter.JavaVisitor;
 import no.uib.inf225.java_formatter.rules.JavaFormatter;
-import no.uib.inf225.java_formatter.util.TreePrinter;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;
@@ -16,11 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.InputStreamReader;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
-import java.util.Formatter;
 import java.util.List;
 
 public class FileScanner {
@@ -60,11 +54,6 @@ public class FileScanner {
         walker.walk(javaListener, tree);
 
         fileOutput.write("\n*/".getBytes());
-        //LOGGER.info("STARTING VISITOR");
-        //JavaVisitor visitor = new JavaVisitor();
-        //Object test = visitor.visit(tree);
-        //System.out.println(test.toString());
-        //LOGGER.info("DONE VISITING");
     }
 
     public static void printTokens(CommonTokenStream tokens) {
