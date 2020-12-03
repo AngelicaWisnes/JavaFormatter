@@ -46,6 +46,7 @@ public class JavaFormatter {
     private static final Set<Class<?>> noSpaceAfterRule = STYLE.getSet_noSpaceAfterRule();
     private static final Set<Class<?>> noSpaceAroundRule = STYLE.getSet_noSpaceAroundRule();
     private static final Set<Class<?>> forceSpaceBeforeRule = STYLE.getSet_forceSpaceBeforeRule();
+    private static final Set<Class<?>> forceSpaceAfterRule = STYLE.getSet_forceSpaceAfterRule();
 
     // Indentation
     private static final Set<String> unindentBeforeToken = STYLE.getSet_unindentBeforeToken();
@@ -149,7 +150,8 @@ public class JavaFormatter {
     }
 
     private boolean shouldBeSpace() {
-        boolean shouldBeForced = forceSpaceBeforeRule.contains(currentRule);
+        boolean shouldBeForced = forceSpaceBeforeRule.contains(currentRule) ||
+                                 forceSpaceAfterRule.contains(previousRule);
 
         boolean shouldBeNearToken = !noSpaceAroundToken.contains(currentToken) &&
                                     !noSpaceAroundToken.contains(previousToken) &&
