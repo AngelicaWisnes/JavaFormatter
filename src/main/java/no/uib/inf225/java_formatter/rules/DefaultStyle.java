@@ -13,7 +13,7 @@ public class DefaultStyle implements IStyle {
 
     // Spacing
     private static final Set<String>
-            noSpaceAroundToken = new HashSet<>(Arrays.asList(".", "[")),
+            noSpaceAroundToken = new HashSet<>(Arrays.asList(".", "[", "<", ">")),
             noSpaceBeforeToken = new HashSet<>(Arrays.asList(";", ",", ")", "]", "++", "--")),
             noSpaceAfterToken = new HashSet<>(Arrays.asList("(", "!", "@"));
 
@@ -22,11 +22,9 @@ public class DefaultStyle implements IStyle {
             noSpaceAfterRule = new HashSet<>(Arrays.asList(
                     MethodNameContext.class // Removes space between method-name and "("
                                                           )),
-            noSpaceAroundRule = new HashSet<>(Arrays.asList(
-                    TypeArgumentsContext.class, // Removes space around "<", for type-arguments
-                    TypeArgumentsOrDiamondContext.class // Removes space around empty type-arguments (or "diamonds")
-                                                           )),
-            forceSpaceBeforeRule = new HashSet<>(Arrays.asList());
+            noSpaceAroundRule = new HashSet<>(Arrays.asList()),
+            forceSpaceBeforeRule = new HashSet<>(Arrays.asList(RelationalExpressionContext.class)),
+            forceSpaceAfterRule = new HashSet<>(Arrays.asList(RelationalExpressionContext.class));
 
 
     // Indentation
@@ -35,10 +33,7 @@ public class DefaultStyle implements IStyle {
             indentAfterToken = new HashSet<>(Arrays.asList("{"));
 
     private static final Set<Class<?>>
-            indentedRule = new HashSet<>(Arrays.asList(
-                    //ClassBodyDeclarationContext.class, // Manages indentation inside Class-body
-                    //BlockStatementsContext.class // Manages indentation inside Block-body
-                                                      ));
+            indentedRule = new HashSet<>(Arrays.asList());
 
     // New-line
     private static final Set<String>
@@ -106,6 +101,11 @@ public class DefaultStyle implements IStyle {
     @Override
     public Set<Class<?>> getSet_forceSpaceBeforeRule() {
         return forceSpaceBeforeRule;
+    }
+
+    @Override
+    public Set<Class<?>> getSet_forceSpaceAfterRule() {
+        return forceSpaceAfterRule;
     }
 
     @Override

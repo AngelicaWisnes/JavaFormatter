@@ -27,6 +27,8 @@ public interface IStyle {
 
     Set<Class<?>> getSet_forceSpaceBeforeRule();
 
+    Set<Class<?>> getSet_forceSpaceAfterRule();
+
     Set<String> getSet_unindentBeforeToken();
 
     Set<String> getSet_indentAfterToken();
