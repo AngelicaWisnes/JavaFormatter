@@ -21,6 +21,7 @@ public class DefaultStyle implements IStyle {
     private static boolean override_noNewLine = false;
     private static String override_closingToken = "";
     private static int indentLevel = 0;
+    private static boolean isOnNewLine = true;
 
 
     // Spacing
@@ -74,6 +75,49 @@ public class DefaultStyle implements IStyle {
             interpretAsLiteral_keySet = interpretAsLiteral.keySet();
 
 
+
+    // New lines
+    @Override
+    public String newIndentedLine() {
+        if (override_noNewLine) return "";
+        setIsOnNewLine(true);
+        return NEW_LINE + INDENT.repeat(indentLevel);
+    }
+
+    @Override
+    public String insertNewLineBeforeRule(Class<?> currentRule) {
+        if (newLineBeforeRule.contains(currentRule) || newLineAroundRule.contains(currentRule))
+            return newIndentedLine();
+        else return "";
+    }
+
+    @Override
+    public String insertNewLineAfterRule(Class<?> previousRule) {
+        if (newLineAfterRule.contains(previousRule) || newLineAroundRule.contains(previousRule))
+            return newIndentedLine();
+        else return "";
+    }
+
+    @Override
+    public String insertNewLineAfterToken(String previousToken) {
+        if (newLineAfterToken.contains(previousToken)) return newIndentedLine();
+        else return "";
+
+    }
+
+
+    // Spacing
+    @Override
+    public void manageIndentation(String previousToken, String currentToken) {
+        if (indentAfterToken.contains(previousToken)) indentLevel++;
+        if (unindentBeforeToken.contains(currentToken)) indentLevel--;
+    }
+
+    @Override
+    public String insertSpace(Class<?> previousRule, Class<?> currentRule, String previousToken, String currentToken) {
+        return shouldBeSpace(previousRule, currentRule, previousToken, currentToken) ? SINGLE_SPACE : "";
+    }
+
     @Override
     public boolean shouldBeSpace(Class<?> previousRule, Class<?> currentRule, String previousToken,
                                  String currentToken) {
@@ -95,43 +139,15 @@ public class DefaultStyle implements IStyle {
                                           currentRule.equals(Java9Parser.IdentifierContext.class);
 
         return shouldBeForced
-               || (!isNegativeNumber &&
+               || (!isOnNewLine &&
+                   !isNegativeNumber &&
                    shouldBeNearToken &&
                    shouldBeNearRule &&
                    !isBetweenTwoIdentifiers);
     }
 
-    @Override
-    public boolean shouldBeNewLineBeforeRule(Class<?> currentRule) {
-        return newLineBeforeRule.contains(currentRule) ||
-               newLineAroundRule.contains(currentRule);
-    }
 
-    @Override
-    public boolean shouldBeNewLineAfterRule(Class<?> previousRule) {
-        return newLineAfterRule.contains(previousRule) ||
-               newLineAroundRule.contains(previousRule);
-    }
-
-    @Override
-    public String getNewIndentedLine() {
-        return NEW_LINE + INDENT.repeat(indentLevel);
-    }
-
-
-    @Override
-    public boolean shouldBeNewLineAfterToken(String previousToken) {
-        return newLineAfterToken.contains(previousToken);
-
-    }
-
-    @Override
-    public String insertSpace(Class<?> previousRule, Class<?> currentRule, String previousToken,
-                              String currentToken) {
-        return shouldBeSpace(previousRule, currentRule, previousToken, currentToken) ? SINGLE_SPACE : "";
-    }
-
-
+    // Special cases
     @Override
     public void checkForSpecialCase(String previousToken, String currentToken) {
         isNegativeNumber = false;
@@ -147,20 +163,16 @@ public class DefaultStyle implements IStyle {
             (previousToken.equals("==") && currentToken.equals("-"))) isNegativeNumber = true;
     }
 
-    @Override
-    public void manageIndentation(String previousToken, String currentToken) {
-        if (indentAfterToken.contains(previousToken)) indentLevel++;
-        if (unindentBeforeToken.contains(currentToken)) indentLevel--;
-    }
 
-
+    // Getters and Setters
     @Override
-    public int TEMP_getIndentLevel() {
+    public int getIndentLevel() {
         return indentLevel;
     }
 
     @Override
-    public boolean override_noNewLine() {
-        return override_noNewLine;
+    public void setIsOnNewLine(boolean isOnNewLine) {
+        DefaultStyle.isOnNewLine = isOnNewLine;
     }
+
 }

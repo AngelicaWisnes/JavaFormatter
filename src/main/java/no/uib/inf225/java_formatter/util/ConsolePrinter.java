@@ -106,7 +106,7 @@ public class ConsolePrinter {
     private static final StringBuilder CONSOLE_PRINTER = new StringBuilder(); // TODO: Remove this line when done
 
     public static void checkAppend(String openOrClose, String cl) {
-        int indentLevel = STYLE.TEMP_getIndentLevel();
+        int indentLevel = STYLE.getIndentLevel();
         if (temp.contains(cl)) append(Ansi.RED, ";", openOrClose, "_", cl, "-", String.valueOf(indentLevel), ";");
     }
 
