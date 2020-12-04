@@ -103,7 +103,7 @@ public class ConsolePrinter {
 
 
     private static final IStyle STYLE = GlobalQuickConfig.getFormattingStyle();
-    private static final StringBuilder CONSOLE_PRINTER = new StringBuilder(); // TODO: Remove this line when done
+    private static final StringBuilder CONSOLE_PRINTER = new StringBuilder();
 
     public static void checkAppend(String openOrClose, String cl) {
         int indentLevel = STYLE.getIndentLevel();

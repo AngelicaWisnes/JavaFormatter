@@ -1,6 +1,7 @@
 package no.uib.inf225.java_formatter.io;
 
 import no.uib.inf225.java_formatter.util.Ansi;
+import no.uib.inf225.java_formatter.util.DirectoryImageBuilder;
 import org.apache.commons.io.FilenameUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,8 +15,8 @@ import static no.uib.inf225.java_formatter.GlobalQuickConfig.isLegalFileExtensio
 
 public class DirectoryScanner {
     private static final Logger LOGGER = LoggerFactory.getLogger(DirectoryScanner.class);
-    private static final StringBuilder DIRECTORY_IMAGE = new StringBuilder();
     private static final FileScanner fileScanner = new FileScanner();
+    private static final DirectoryImageBuilder DIRECTORY_IMAGE_BUILDER = new DirectoryImageBuilder();
 
     public void traverseDirectory(Path path, int folderIndex) {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(path)) {
@@ -26,29 +27,16 @@ public class DirectoryScanner {
     }
 
     private void handleEntry(Path entry, int folderIndex) {
-        directoryImageBuilder(entry, folderIndex);
+        String fileExtension = getFileExtension(entry);
+
+        DIRECTORY_IMAGE_BUILDER.build(entry, folderIndex, fileExtension);
+
         if (isFolder(entry)) traverseDirectory(entry, folderIndex + 1);
-        if (isLegalFileExtension(getFileExtension(entry))) fileScanner.scan(entry);
+        if (isLegalFileExtension(fileExtension)) fileScanner.scan(entry);
     }
 
-    private void directoryImageBuilder(Path entry, int indentation) {
-        DIRECTORY_IMAGE.append("  ".repeat(indentation));
-        DIRECTORY_IMAGE.append(getEntryColor(entry));
-        DIRECTORY_IMAGE.append(entry.getFileName());
-        DIRECTORY_IMAGE.append(Ansi.RESET + "\n");
-    }
-
-    public String getEntryColor(Path entry) {
-        return switch (getFileExtension(entry)) {
-            case "" -> Ansi.WHITE;
-            case "java" -> Ansi.GREEN;
-            case "class" -> Ansi.PURPLE;
-            default -> Ansi.BLACK;
-        };
-    }
-
-    public StringBuilder getDirectoryImage() {
-        return DIRECTORY_IMAGE;
+    public String getDirectoryImage() {
+        return DIRECTORY_IMAGE_BUILDER.getDirectoryImage();
     }
 
     private boolean isFolder(Path entry) {
