@@ -80,3 +80,7 @@ is entering or exiting a rule. If the rules themselves should result in a new li
 
 Otherwise, when the process is reaching a TerminalNode, the style-class is thoroughly checked to determine where there 
 should be spaces, indentations, and new lines.
+
+## Known flaws and errors
+At the moment, the formatter does not parse comments, which seems to result in all comments being deleted when the 
+formatting is done.
