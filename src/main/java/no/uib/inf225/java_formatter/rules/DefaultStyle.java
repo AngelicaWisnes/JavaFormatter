@@ -74,6 +74,10 @@ public class DefaultStyle implements IStyle {
     private static final Set<String>
             interpretAsLiteral_keySet = interpretAsLiteral.keySet();
 
+    // Helpers
+    private static final Set<String>
+            tokensBeforeNegativeNumber = new HashSet<>(Arrays.asList("=", "==", "<", ">", "<=", ">="));
+
 
 
     // New lines
@@ -138,10 +142,9 @@ public class DefaultStyle implements IStyle {
                                           previousRule.equals(Java9Parser.IdentifierContext.class) &&
                                           currentRule.equals(Java9Parser.IdentifierContext.class);
 
+        if (isOnNewLine || isNegativeNumber) return false;
         return shouldBeForced
-               || (!isOnNewLine &&
-                   !isNegativeNumber &&
-                   shouldBeNearToken &&
+               || (shouldBeNearToken &&
                    shouldBeNearRule &&
                    !isBetweenTwoIdentifiers);
     }
@@ -159,8 +162,8 @@ public class DefaultStyle implements IStyle {
             override_noNewLine = false;
             override_closingToken = "";
         }
-        if ((previousToken.equals("=") && currentToken.equals("-")) ||
-            (previousToken.equals("==") && currentToken.equals("-"))) isNegativeNumber = true;
+        if (currentToken.equals("-") && tokensBeforeNegativeNumber.contains(previousToken)) isNegativeNumber = true;
+
     }
 
 
