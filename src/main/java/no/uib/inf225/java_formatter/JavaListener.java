@@ -1,6 +1,5 @@
 package no.uib.inf225.java_formatter;
 
-import no.uib.inf225.java_formatter.Java9Parser.*;
 import no.uib.inf225.java_formatter.rules.JavaFormatter;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -49,36 +48,6 @@ public class JavaListener extends Java9BaseListener {
         String text = node.getText();
         LOGGER.debug("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
         super.visitErrorNode(node);
-    }
-
-
-
-
-
-    @Override
-    public int hashCode() {
-        LOGGER.debug("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
-        return super.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        String text = obj.toString();
-
-        LOGGER.debug("Method: {} - {}", Thread.currentThread().getStackTrace()[1].getMethodName(), text);
-        return super.equals(obj);
-    }
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        LOGGER.debug("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
-        return super.clone();
-    }
-
-    @Override
-    public String toString() {
-        LOGGER.debug("Method: {}", Thread.currentThread().getStackTrace()[1].getMethodName());
-        return super.toString();
     }
 
 }
