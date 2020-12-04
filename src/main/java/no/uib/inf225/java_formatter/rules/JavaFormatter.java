@@ -16,8 +16,6 @@ public class JavaFormatter {
     private static FileOutputStream output;
     private static final IStyle STYLE = GlobalQuickConfig.getFormattingStyle();
 
-    // Logical dynamics
-
     // Holders for token / rules
     private static String previousToken = "";
     private static final Stack<Class<?>> ruleStack = new Stack<>();
