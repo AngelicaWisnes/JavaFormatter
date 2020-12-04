@@ -1,7 +1,6 @@
 package no.uib.inf225.java_formatter;
 
 import no.uib.inf225.java_formatter.rules.DefaultStyle;
-import no.uib.inf225.java_formatter.rules.JavaFormatter;
 import no.uib.inf225.java_formatter.rules.IStyle;
 
 import java.nio.file.Path;
@@ -17,6 +16,10 @@ public final class GlobalQuickConfig {
     // Directory and files
     private static final Path DIRECTORY_ROOT = Paths.get(System.getProperty("user.dir"));
     private static final List<String> LEGAL_FILE_EXTENSION = Arrays.asList("java", "class");
+
+    // Formatting single file, instead of complete directory
+    private static final boolean SHOULD_ONLY_FORMAT_SINGLE_FILE = true;
+    private static final String FILE_NAME_TO_FORMAT = "TestClass1.java";
 
     // Formatting styles
     private static final IStyle FORMATTING_STYLE = new DefaultStyle();
@@ -34,5 +37,13 @@ public final class GlobalQuickConfig {
 
     public static IStyle getFormattingStyle() {
         return FORMATTING_STYLE;
+    }
+
+    public static boolean shouldOnlyFormatSingleFile() {
+        return SHOULD_ONLY_FORMAT_SINGLE_FILE;
+    }
+
+    public static String getFileNameToFormat() {
+        return FILE_NAME_TO_FORMAT;
     }
 }

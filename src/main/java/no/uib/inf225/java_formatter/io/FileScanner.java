@@ -1,5 +1,6 @@
 package no.uib.inf225.java_formatter.io;
 
+import no.uib.inf225.java_formatter.GlobalQuickConfig;
 import no.uib.inf225.java_formatter.Java9Lexer;
 import no.uib.inf225.java_formatter.Java9Parser;
 import no.uib.inf225.java_formatter.JavaListener;
@@ -19,17 +20,23 @@ public class FileScanner {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FileScanner.class);
 
+
+    private static final boolean SHOULD_ONLY_FORMAT_SINGLE_FILE = GlobalQuickConfig.shouldOnlyFormatSingleFile();
+    private static final String FILE_NAME_TO_FORMAT = GlobalQuickConfig.getFileNameToFormat();
+
+
     public void scan(Path file) {
         String fileName = file.getFileName().toString();
 
-        if (fileName.equals("TestClass1.java")) {
-            LOGGER.info("Scanner initiated with file: {}", fileName);
-            try {
-                handle(file);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+        if (SHOULD_ONLY_FORMAT_SINGLE_FILE && !fileName.equals(FILE_NAME_TO_FORMAT)) return;
+
+        LOGGER.info("Scanner initiated with file: {}", fileName);
+        try {
+            handle(file);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
     }
 
     public void handle(Path file) throws Exception {
