@@ -16,11 +16,11 @@ public class TestClass1 {
         int c = 1 - 1;
         int d = 2 + (3 / 4 + 1);
 
-        if (a > b) a += 1;
-        if (a < b) a -= 1;
-        if (a == b) a += 1;
-        if (a >= b) a += 1;
-        if (a <= b) a -= 1;
+        if (a > -11) a += 1;
+        if (a < -12) a -= 1;
+        if (a == -1) a += 1;
+        if (a >= -1) a += 1;
+        if (a <= -3) a -= 1;
 
         int N = io.getInt();
         int M = io.getInt();
