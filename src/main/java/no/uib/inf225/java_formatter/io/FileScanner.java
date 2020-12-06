@@ -32,21 +32,20 @@ public class FileScanner {
 
         LOGGER.info("Scanner initiated with file: {}", fileName);
         try {
-            handle(file);
+            FileInputStream fileInput = new FileInputStream(String.valueOf(file));
+            FileOutputStream fileOutput = new FileOutputStream(String.valueOf(file).replace(".", "_TEST_OUTPUT."));
+            handle(fileInput, fileOutput);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-    public void handle(Path file) throws Exception {
-        LOGGER.info("Started handling of file: {}", file.getFileName());
-
-        FileInputStream fileInput = new FileInputStream(String.valueOf(file));
-        FileOutputStream fileOutput = new FileOutputStream(String.valueOf(file).replace(".", "_TEST_OUTPUT."));
+    public void handle(FileInputStream fileInput, FileOutputStream fileOutput) throws Exception {
+        LOGGER.info("Started handling of file");
 
         JavaFormatter formatter = new JavaFormatter(fileOutput);
-        fileOutput.write("/*\n".getBytes());
+        //fileOutput.write("/*\n".getBytes());
 
         Java9Lexer lexer = new Java9Lexer(CharStreams.fromStream(fileInput));
         CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -58,7 +57,8 @@ public class FileScanner {
         JavaListener javaListener = new JavaListener(formatter);
         walker.walk(javaListener, tree);
 
-        fileOutput.write("\n*/".getBytes());
+        //fileOutput.write("\n*/".getBytes());
+
     }
 
 }
