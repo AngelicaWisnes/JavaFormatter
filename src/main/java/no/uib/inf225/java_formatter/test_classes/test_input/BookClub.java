@@ -1,4 +1,4 @@
-package no.uib.inf225.java_formatter.test_classes;
+package no.uib.inf225.java_formatter.test_classes.test_input;
 
 import java.util.ArrayList;
 
