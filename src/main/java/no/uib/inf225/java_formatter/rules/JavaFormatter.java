@@ -53,7 +53,7 @@ public class JavaFormatter {
         // Check for EOF
         if (endOfFile(node)) {
             writeToOutput(STYLE.newIndentedLine());
-            ConsolePrinter.print(); // Can be removed when project done
+            //ConsolePrinter.print(); // Can be removed when project done
             return;
         }
 
