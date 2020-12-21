@@ -17,9 +17,9 @@ public class Main {
     public static void main(String[] args) {
         LOGGER.info("Using directory root {}", DIRECTORY_ROOT);
 
-        DIRECTORY_SCANNER.traverseDirectory(Path.of(DIRECTORY_ROOT + "\\src"), 0);
+        DIRECTORY_SCANNER.traverseDirectory(DIRECTORY_ROOT, 0);
 
-        //LOGGER.info("Finished scanning the directory: \n{}", DIRECTORY_SCANNER.getDirectoryImage());
+        LOGGER.info("Finished scanning the directory: \n{}", DIRECTORY_SCANNER.getDirectoryImage());
         //LogAnalyzer.checkLogForUsedMethods();
     }
 

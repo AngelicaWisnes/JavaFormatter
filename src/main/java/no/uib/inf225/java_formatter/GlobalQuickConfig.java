@@ -14,7 +14,14 @@ import java.util.List;
 public final class GlobalQuickConfig {
 
     // Directory and files
-    private static final Path DIRECTORY_ROOT = Paths.get(System.getProperty("user.dir"));
+    private static final Path ROOT_SRC = Path.of(Paths.get(System.getProperty("user.dir")) + "\\src");
+    private static final Path ROOT_TEST_INPUT = Path.of(ROOT_SRC +
+                                                        "\\main\\java\\no\\uib\\inf225\\java_formatter\\test_classes\\test_input");
+    private static final Path DIRECTORY_ROOT = ROOT_TEST_INPUT;
+
+
+
+    // Files
     private static final List<String> LEGAL_FILE_EXTENSION = Arrays.asList("java", "class");
 
     // Formatting single file, instead of complete directory
