@@ -70,7 +70,7 @@ public class FileScannerTest {
             e.printStackTrace();
         }
 
-        printFilesToConsole(inputFile, outputFile);
+        //printFilesToConsole(inputFile, outputFile);
         return FileUtils.contentEquals(inputFile, outputFile);
     }
 
