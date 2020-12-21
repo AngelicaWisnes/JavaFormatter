@@ -208,5 +208,5 @@ $RECYCLE.BIN/
 *.ipr
 
 
-/src/main/java/no/uib/inf225/java_formatter/temp/
-/src/main/java/no/uib/inf225/java_formatter/test_classes/*_TEST_OUTPUT.java
+# Temporary output-folder
+test_output\
