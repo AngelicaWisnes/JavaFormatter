@@ -25,15 +25,16 @@ public class FileScanner {
     private static final String FILE_NAME_TO_FORMAT = GlobalQuickConfig.getFileNameToFormat();
 
 
-    public void scan(Path file) {
-        String fileName = file.getFileName().toString();
+    public void scan(Path filePath) {
+        String fileName = filePath.getFileName().toString();
 
         if (SHOULD_ONLY_FORMAT_SINGLE_FILE && !fileName.equals(FILE_NAME_TO_FORMAT)) return;
 
         LOGGER.info("Scanner initiated with file: {}", fileName);
         try {
-            FileInputStream fileInput = new FileInputStream(String.valueOf(file));
-            FileOutputStream fileOutput = new FileOutputStream(String.valueOf(file).replace(".", "_TEST_OUTPUT."));
+            FileInputStream fileInput = new FileInputStream(String.valueOf(filePath));
+            FileOutputStream fileOutput = new FileOutputStream(String.valueOf(filePath)
+                                                                       .replace("input", "output"));
             handle(fileInput, fileOutput);
         } catch (Exception e) {
             e.printStackTrace();
@@ -45,7 +46,7 @@ public class FileScanner {
         LOGGER.info("Started handling of file");
 
         JavaFormatter formatter = new JavaFormatter(fileOutput);
-        //fileOutput.write("/*\n".getBytes());
+        fileOutput.write("/*\n".getBytes());
 
         Java9Lexer lexer = new Java9Lexer(CharStreams.fromStream(fileInput));
         CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -57,7 +58,7 @@ public class FileScanner {
         JavaListener javaListener = new JavaListener(formatter);
         walker.walk(javaListener, tree);
 
-        //fileOutput.write("\n*/".getBytes());
+        fileOutput.write("\n*/".getBytes());
 
     }
 
